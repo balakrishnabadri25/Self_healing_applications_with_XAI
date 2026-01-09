@@ -1,3 +1,14 @@
-timestamp,message,prediction,action
-2025-08-26T08:04:04.512016,ERROR - OutOfMemoryError: Java heap space,1,Clear cache / Restart app
-2025-08-26T08:04:17.853872,ERROR - Database connection failed,1,Restart Database Service
+timestamp,message,prediction,action,confidence
+2026-01-05T06:01:21.802733,ERROR - Database connection retrying,1,Restart Database Service,0.95
+2026-01-05T06:01:33.892371,ERROR - Database connection retrying,1,Restart Database Service,0.95
+2026-01-05T06:08:08.562839,ERROR - Database connection retrying,1,Restart Database Service,0.95
+2026-01-05T06:22:00.131803,ERROR - Database connection retrying,1,Restart Database Service,0.95
+2026-01-05T06:22:22.485698,ERROR - Database connection retrying,1,Restart Database Service,0.95
+2026-01-05T06:22:46.418322,WARN - Disk IO latency high,1,Clean temp files / Alert storage admin,0.7053255448619201
+2026-01-05T06:22:47.262681,ERROR - Database connection retrying,1,Restart Database Service,0.95
+2026-01-05T06:22:47.878226,ERROR - High memory usage observed,1,Clear cache / Restart app,0.95
+2026-01-05T06:22:48.518795,WARN - Disk IO latency high,1,Clean temp files / Alert storage admin,0.7053255448619201
+2026-01-05T06:22:49.309557,ERROR - Operation retry,1,Restart service (generic),0.95
+2026-01-05T06:22:49.947338,WARN - Disk IO latency high,1,Clean temp files / Alert storage admin,0.7053255448619201
+2026-01-05T06:22:50.748664,ERROR - Operation timeout,1,Restart service (generic),0.95
+2026-01-05T06:22:51.486891,ERROR - API timeout after 3000 ms,1,Restart service (generic),0.95

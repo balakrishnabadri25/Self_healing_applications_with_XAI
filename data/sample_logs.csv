@@ -1,0 +1,22 @@
+timestamp,message
+2026-01-01 10:00:01,INFO - Operation completed
+2026-01-01 10:00:05,DEBUG - Operation completed
+2026-01-01 10:00:10,INFO - Operation established
+2026-01-01 10:00:15,WARN - Operation slow
+2026-01-01 10:00:20,ERROR - Operation timeout
+2026-01-01 10:00:25,INFO - Operation recovered
+2026-01-01 10:00:30,WARN - Operation latency
+2026-01-01 10:00:35,ERROR - Operation retry
+2026-01-01 10:00:40,INFO - Operation normal
+2026-01-01 10:00:45,DEBUG - Operation ok
+2026-01-01 10:00:50,WARN - Operation degraded
+2026-01-01 10:00:55,ERROR - High memory usage observed
+2026-01-01 10:01:00,INFO - Memory usage normalized
+2026-01-01 10:01:05,ERROR - Database connection retrying
+2026-01-01 10:01:10,INFO - Database connection established
+2026-01-01 10:01:15,WARN - Disk IO latency high
+2026-01-01 10:01:20,INFO - Disk IO latency recovered
+2026-01-01 10:01:25,ERROR - API timeout after 3000 ms
+2026-01-01 10:01:30,INFO - API response normal
+2026-01-01 10:01:35,WARN - Service response degraded
+2026-01-01 10:01:40,INFO - Service operating normally
